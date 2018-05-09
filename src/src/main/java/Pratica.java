@@ -6,7 +6,7 @@ import utfpr.ct.dainf.pratica.PontoXZ;
  * UTFPR - Universidade Tecnológica Federal do Paraná
  * DAINF - Departamento Acadêmico de Informática
  * 
- * @author 
+ * @author Chin
  */
 public class Pratica {
 
