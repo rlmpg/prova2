@@ -1,4 +1,6 @@
 
+
+import utfpr.ct.dainf.pratica.Ponto;
 import utfpr.ct.dainf.pratica.PontoXY;
 import utfpr.ct.dainf.pratica.PontoXZ;
 
@@ -11,14 +13,12 @@ import utfpr.ct.dainf.pratica.PontoXZ;
 public class Pratica {
 
     public static void main(String[] args) {
-        
-        
-        PontoXZ pontoXZ = new PontoXZ(-3, 2);
-        PontoXY pontoXY = new PontoXY(0, 2);
-        
-        System.out.println("Distancia = " + pontoXY.dist(pontoXZ.getX(), pontoXZ.getY(), pontoXZ.getZ()));
-        
-    }
-
+        PontoXZ xz = new PontoXZ(-3, 2);
+        PontoXY xy = new PontoXY(0, 2);
+        double dist = xz.dist(xy);
+        System.out.println("Distancia = "+ dist);
+    }   
+    
+    
     
 }
